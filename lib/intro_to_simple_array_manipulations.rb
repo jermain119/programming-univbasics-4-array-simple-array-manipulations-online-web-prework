@@ -1,7 +1,7 @@
-def using_push(countries_in_western_africa, next_country)
+def using_push(colors_in_the_rainbow ,  next_color )
   colors_in_the_rainbow = ["red", "orange", "yellow", "green", "blue", "indigo"]
     next_color = "violet"
-  countries_in_western_africa.push(next_country)
+   colors_in_the_rainbow.push(next_country)
 end
 
 def using_unshift(neighborhoods_in_northwest_brooklyn, new_neighborhood)
