@@ -57,7 +57,7 @@ def using_delete(my_list, my_element)
 end
 
 def using_delete_at(array, integer)
-  array= ["the dog from doctor who", "R2D2", "Ultron"]
+  array= ["Johnny 5", "R2D2", "Robocop"]
   integer = 2
   deleted_robot = array.delete_at(integer)
 end
