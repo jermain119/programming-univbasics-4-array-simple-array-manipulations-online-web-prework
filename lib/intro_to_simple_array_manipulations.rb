@@ -36,7 +36,7 @@ def using_concat(my_favorite_things, more_favs)
   @all_my_favs = @my_favorite_things.concat(more_favs)
 end
 
-def using_insert(list_of_esoteric_programming_languages, another_esoteric_language)
+def using_insert(list_of_programming_languages, another_language)
   @list_of_programming_languages = ["Ruby", "JavaScript", "Java", "C#", "Objective C", "C++", "PHP"]
     @another_language = "Python"
  @new_array = using_insert(4,@list_of_programming_languages, @another_language)
