@@ -10,9 +10,9 @@ def using_unshift( array, string)
    array.unshift(string)
 end
 
-def using_pop(deleted_string)
+def using_pop(array)
   @continents = ["Africa", "Asia", "Europe", "North America", "South America", "Oceania", "Antarctica"]
-   @deleted_string.pop
+   @continents.pop
 end
 
 def pop_with_args(chars_in_game_of_thrones)
