@@ -7,7 +7,7 @@ end
 def using_unshift( array, string)
  array = ["Brooklyn", "Queens", "Manhattan", "Bronx"]
     string = "Staten Island"
-   array(string)
+   array.unshift(string)
 end
 
 def using_pop(great_hits_of_the_nineties)
