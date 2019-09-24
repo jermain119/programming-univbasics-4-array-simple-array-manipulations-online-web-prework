@@ -1,6 +1,6 @@
-def using_push(colors_in_the_rainbow ,  next_color )
+def using_push(colors_in_the_rainbow ,   )
   colors_in_the_rainbow = ["red", "orange", "yellow", "green", "blue", "indigo"]
-    next_color = "violet"
+     = "violet"
    colors_in_the_rainbow.push(next_country)
 end
 
