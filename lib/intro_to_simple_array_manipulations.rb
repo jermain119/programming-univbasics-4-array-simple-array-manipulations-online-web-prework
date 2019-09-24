@@ -47,9 +47,9 @@ def using_uniq(haircuts)
   new_array = haircuts.uniq
 end
 
-def using_flatten(private_colleges_in_newyork)
-  private_colleges_in_newyork = ["New York University", ["Manhattan School of Music ", "Columbia University"], "The Juilliard School", "Bard College", "Cooper Union"]
-  flat_array = private_colleges_in_newyork.flatten
+def using_flatten(instruments)
+ instruments = ["New York University", ["Manhattan School of Music ", "Columbia University"], "The Juilliard School", "Bard College", "Cooper Union"]
+  flat_array = instruments.flatten
 end
 
 def using_delete(my_list, my_element)
