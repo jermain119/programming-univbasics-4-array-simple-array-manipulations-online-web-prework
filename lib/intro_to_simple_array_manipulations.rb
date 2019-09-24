@@ -42,9 +42,9 @@ def using_insert(list_of_programming_languages, another_language)
  @new_array = @list_of_programming_languages.insert(4, @another_language)
 end
 
-def using_uniq(captain_planet_and_the_planeteers)
-  captain_planet_and_the_planeteers = ["Captain Planet", "Gaia", "Kwame", "Gi", "Linka", "Wheeler", "Gaia"]
-  new_array = captain_planet_and_the_planeteers.uniq
+def using_uniq(haircuts)
+  haircuts = ["Pixie", "Bob", "Mohawk", "Crew Cut", "Linka", "Wheeler", "Bob"]
+  new_array = haircuts.uniq
 end
 
 def using_flatten(private_colleges_in_newyork)
